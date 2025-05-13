@@ -3,8 +3,7 @@ package main
 import (
 	"net/http"
 	"github.com/labstack/echo/v4"
-	
-)
+	)
 
 type flight struct {
   Flight_array  [][]string `json:"Flight_array"` 
@@ -18,7 +17,9 @@ func main() {
         return c.JSON(http.StatusBadRequest, 
 			map[string]string{"error": "Invalid input"}) 
 		} 
-		
+		for i := 0; i < 4; i++{ 
+			println("GeeksforGeeks\n")   
+			} 
 		return c.JSON(http.StatusOK, my_flights) 
 	})
 	e.Logger.Fatal(e.Start(":1323"))

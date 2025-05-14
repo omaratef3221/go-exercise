@@ -92,6 +92,3 @@ You’ll get:
 * Fast, clean, works as expected
 
 Done.
-
-```
-```

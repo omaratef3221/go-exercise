@@ -90,5 +90,3 @@ You’ll get:
 * Input must follow the format exactly
 * No external database or config
 * Fast, clean, works as expected
-
-Done.
